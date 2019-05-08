@@ -42,6 +42,8 @@ void setup() //Setup intended for first time setup of SDK. Must initialize both 
   Serial.flush();
   Serial1.flush();
   Serial.println("Begin Setup");
+  
+  delay(5000);  // Wait for serial init
 
   mySensor.DEBUG = false;
 
